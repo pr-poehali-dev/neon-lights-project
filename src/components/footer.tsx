@@ -96,7 +96,7 @@ export function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="font-space-mono text-gray-400 text-sm">2025 УмныйAI. Все права защищены.</p>
             <p className="font-space-mono text-gray-500 text-sm mt-4 md:mt-0">
-              Подписка 100 ₽/мес · Отмена в любое время
+              Подписка 89 ₽/мес · Отмена в любое время
             </p>
           </div>
         </div>

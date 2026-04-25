@@ -184,7 +184,7 @@ export const Hero3DWebGL = () => {
             href="#pricing"
             className="bg-red-500 hover:bg-red-600 text-white font-bold px-8 py-3 rounded-md text-base transition-colors duration-200 font-orbitron"
           >
-            Попробовать за 100 ₽/мес
+            Попробовать за 89 ₽/мес
           </a>
           <a
             href="#features"

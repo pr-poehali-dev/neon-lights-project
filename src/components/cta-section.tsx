@@ -31,7 +31,7 @@ export function CTASection() {
                   <span className="text-red-500 font-semibold text-sm font-orbitron">ПОЛНЫЙ ДОСТУП</span>
                 </div>
                 <CardTitle className="text-6xl font-extrabold text-foreground font-orbitron">
-                  100 ₽
+                  89 ₽
                 </CardTitle>
                 <p className="text-muted-foreground text-lg">в месяц</p>
               </CardHeader>
@@ -48,7 +48,7 @@ export function CTASection() {
                   size="lg"
                   className="w-full bg-red-500 hover:bg-red-600 text-white font-bold text-lg py-6 pulse-button border-0"
                 >
-                  Подключить за 100 ₽
+                  Подключить за 89 ₽
                 </Button>
                 <p className="text-muted-foreground text-sm mt-4">Отмена в любой момент</p>
               </CardContent>
@@ -61,12 +61,12 @@ export function CTASection() {
       <section className="py-24 px-6 bg-gradient-to-r from-primary/10 via-accent/10 to-primary/10">
         <div className="max-w-4xl mx-auto text-center">
           <div className="slide-up">
-            <h2 className="text-5xl font-bold text-foreground mb-6 font-sans text-balance">
+            <h2 className="text-5xl font-bold text-white mb-6 font-sans text-balance">
               Ваш личный ИИ-ассистент ждёт вас
             </h2>
             <p className="text-xl text-muted-foreground mb-10 leading-relaxed max-w-2xl mx-auto">
-              Присоединяйтесь к тысячам людей, которые уже решают задачи быстрее с помощью умного ассистента.
-              Первый месяц — всего 100 рублей.
+              Попробуйте умного ассистента с памятью диалогов уже сегодня.
+              Всего 89 рублей в месяц — отмена в любой момент.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button

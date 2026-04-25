@@ -4,7 +4,6 @@ import { TechnologySection } from "@/components/technology-section"
 import { ApplicationsTimeline } from "@/components/applications-timeline"
 import { AboutSection } from "@/components/about-section"
 import { SafetySection } from "@/components/safety-section"
-import { TestimonialsSection } from "@/components/testimonials-section"
 import { FAQSection } from "@/components/faq-section"
 import { CTASection } from "@/components/cta-section"
 import { Navbar } from "@/components/navbar"
@@ -25,7 +24,6 @@ export default function Index() {
         <section id="safety" style={{display:'none'}}>
           <SafetySection />
         </section>
-        <TestimonialsSection />
         <section id="faq">
           <FAQSection />
         </section>
