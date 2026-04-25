@@ -3,75 +3,75 @@ import { Timeline } from "@/components/ui/timeline"
 export function ApplicationsTimeline() {
   const data = [
     {
-      title: "Медицинское восстановление",
+      title: "Работа и бизнес",
       content: (
         <div>
           <p className="text-white text-sm md:text-base font-normal mb-6 leading-relaxed">
-            Революционное лечение паралича, травм спинного мозга и нейродегенеративных заболеваний. Восстановление
-            моторных функций и независимости миллионам людей по всему миру.
+            Ассистент поможет составить бизнес-план, написать коммерческое предложение, проанализировать рынок
+            и найти решение любой рабочей задачи — быстро и качественно.
           </p>
           <div className="space-y-3">
             <div className="flex items-center gap-3 text-red-400 text-sm">
               <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-              Восстановление при тетра- и параплегии
+              Анализ данных, таблиц и отчётов
             </div>
             <div className="flex items-center gap-3 text-red-400 text-sm">
               <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-              Контроль симптомов БАС и Паркинсона
+              Написание текстов, писем, презентаций
             </div>
             <div className="flex items-center gap-3 text-red-400 text-sm">
               <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-              Ускорение реабилитации после инсульта
+              Советы по стратегии и принятию решений
             </div>
           </div>
         </div>
       ),
     },
     {
-      title: "Когнитивное усиление",
+      title: "Учёба и саморазвитие",
       content: (
         <div>
           <p className="text-white text-sm md:text-base font-normal mb-6 leading-relaxed">
-            Усиление человеческого интеллекта, памяти и способности к обучению. Прямые нейроинтерфейсы для
-            улучшенной когнитивной производительности и обработки информации.
+            Объяснит сложную тему простым языком, решит задачу с пояснениями, поможет подготовиться к экзамену
+            и составит индивидуальный план обучения под ваши цели.
           </p>
           <div className="space-y-3">
             <div className="flex items-center gap-3 text-red-400 text-sm">
               <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-              Улучшение памяти и оптимизация запоминания
+              Математика, физика, химия, история — любые предметы
             </div>
             <div className="flex items-center gap-3 text-red-400 text-sm">
               <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-              Ускоренное обучение и освоение навыков
+              Переводы и изучение иностранных языков
             </div>
             <div className="flex items-center gap-3 text-red-400 text-sm">
               <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-              Перевод языков в реальном времени
+              Персональный план обучения и мотивация
             </div>
           </div>
         </div>
       ),
     },
     {
-      title: "Цифровая интеграция",
+      title: "Личная жизнь и здоровье",
       content: (
         <div>
           <p className="text-white text-sm md:text-base font-normal mb-6 leading-relaxed">
-            Бесшовное соединение человеческого сознания с цифровыми системами. Управление устройствами,
-            доступ к информации и общение силой мысли.
+            Выслушает, поддержит, поможет разобраться в сложной ситуации. Даст советы по здоровью, питанию,
+            путешествиям и любым личным вопросам — как умный друг, который всегда рядом.
           </p>
           <div className="space-y-3">
             <div className="flex items-center gap-3 text-red-400 text-sm">
               <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-              Управление устройствами силой мысли
+              Советы по здоровью, питанию и спорту
             </div>
             <div className="flex items-center gap-3 text-red-400 text-sm">
               <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-              Прямой доступ к интернету и облаку
+              Помощь в планировании путешествий
             </div>
             <div className="flex items-center gap-3 text-red-400 text-sm">
               <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-              Телепатические сети связи
+              Эмоциональная поддержка и разбор ситуаций
             </div>
           </div>
         </div>
@@ -83,10 +83,10 @@ export function ApplicationsTimeline() {
     <section id="applications" className="py-20 bg-black">
       <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-10">
         <div className="text-center mb-16">
-          <h2 className="font-display text-3xl md:text-5xl font-bold text-white mb-6">Трансформирующие применения</h2>
+          <h2 className="font-display text-3xl md:text-5xl font-bold text-white mb-6">Помогает во всём</h2>
           <p className="text-gray-300 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-            Технологии SynapseAI открывают беспрецедентные возможности для усиления человека, медицинского
-            лечения и цифровой интеграции в множестве областей.
+            Один ассистент — безграничные возможности. Помогает в работе, учёбе и личной жизни,
+            помня весь контекст ваших разговоров.
           </p>
         </div>
 

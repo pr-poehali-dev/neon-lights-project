@@ -3,25 +3,25 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const testimonials = [
   {
-    name: "Елена Родригес",
-    role: "Директор по нейронауке, Quantum Dynamics",
+    name: "Ольга Смирнова",
+    role: "Предприниматель, Москва",
     avatar: "/professional-woman-scientist.png",
     content:
-      "SynapseAI изменил наш подход к нейрореабилитации. Результаты пациентов улучшились на 340% после внедрения.",
+      "Использую для анализа данных и написания текстов. За месяц сэкономила часов 20 рабочего времени — ассистент помнит контекст и сразу понимает что нужно.",
   },
   {
-    name: "Маркус Уильямс",
-    role: "Руководитель исследований, Stellar Analytics",
+    name: "Дмитрий Козлов",
+    role: "Студент, Санкт-Петербург",
     avatar: "/cybersecurity-expert-man.jpg",
     content:
-      "Точность и протоколы безопасности не имеют аналогов. Мы значительно ускорили клинические испытания с платформой SynapseAI.",
+      "Объясняет задачи лучше любого преподавателя. Задаёт уточняющие вопросы, подстраивается под мой уровень. За 100 рублей в месяц — это просто подарок.",
   },
   {
-    name: "Анна Ковальски",
-    role: "Вице-президент по разработке, Nova Industries",
+    name: "Марина Петрова",
+    role: "Фрилансер, переводчик",
     avatar: "/asian-woman-tech-developer.jpg",
     content:
-      "Интеграция прошла безупречно. Адаптивные алгоритмы понимают намерения пользователя лучше любой системы, что мы тестировали.",
+      "Перевожу с его помощью технические тексты каждый день. Переводит точно, учитывает стиль и терминологию из предыдущих диалогов. Незаменимый инструмент.",
   },
 ]
 
@@ -30,9 +30,9 @@ export function TestimonialsSection() {
     <section className="py-24 px-6 bg-card">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нам доверяют лидеры</h2>
+          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Что говорят пользователи</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Что говорят лидеры индустрии о нашей революционной технологии
+            Реальные отзывы людей, которые используют ИИ-ассистента каждый день
           </p>
         </div>
 
